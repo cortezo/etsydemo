@@ -1,4 +1,6 @@
 Etsydemo::Application.routes.draw do
+  resources :listings
+
   get "pages/about"
   get "pages/contact"
   # The priority is based upon order of creation: first created -> highest priority.

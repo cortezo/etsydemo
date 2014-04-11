@@ -15,6 +15,7 @@
   <tbody>
     <% @listings.each do |listing| %>
       <tr>
+        <td><%= listing.image %></td>
         <td><%= listing.name %></td>
         <td><%= listing.description %></td>
         <td><%= listing.price %></td>

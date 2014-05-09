@@ -1,6 +1,6 @@
 app_key: "v1nvecba413xia5"
-app_secret: "7s4ecnfkz3xblwh"
+app_secret: ENV["APP_SECRET"]
 access_token: "ed1sy6eivpck83os"
-access_token_secret: "hwpc81g165wupnh"
+access_token_secret: ENV["ACCESS_TOKEN_SECRET"]
 user_id: "295830979"
 access_type: "app_folder"
